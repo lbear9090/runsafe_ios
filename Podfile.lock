@@ -1,0 +1,51 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FBSDKCoreKit (4.16.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.16.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.16.0):
+    - FBSDKCoreKit
+  - MapboxDirections.swift (0.6.0):
+    - Polyline (~> 3.2)
+  - Polyline (3.2.2)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - Bolts
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - MapboxDirections.swift (from `https://github.com/mapbox/MapboxDirections.swift.git`, tag `v0.6.0`)
+  - SwiftyJSON (~> 3.1)
+
+EXTERNAL SOURCES:
+  MapboxDirections.swift:
+    :git: https://github.com/mapbox/MapboxDirections.swift.git
+    :tag: v0.6.0
+
+CHECKOUT OPTIONS:
+  MapboxDirections.swift:
+    :git: https://github.com/mapbox/MapboxDirections.swift.git
+    :tag: v0.6.0
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FBSDKCoreKit: 7a6baaed4a2b2a244ba253346713bdbc74df135b
+  FBSDKLoginKit: 9a514a55a7d05190f64d4ef09502737588b5b561
+  FBSDKShareKit: e81505de17fc0624cbaa87b83cccc9f2a786e6cb
+  MapboxDirections.swift: 144cefb4386d419f916ce27928834c28bbaafb4f
+  Polyline: 4968bf16ceddd579e1e60820edc74a2271ec9c59
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: d399727c3f7c89b0132ca8634615a088e7b34d5a
+
+COCOAPODS: 1.3.1
